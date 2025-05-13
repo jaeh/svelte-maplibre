@@ -7,7 +7,8 @@ import {
   type Marker,
 } from 'maplibre-gl';
 import MapLibre from 'maplibre-gl';
-const { LngLatBounds, LngLat } = MapLibre;
+import type { LngLat } from 'maplibre-gl';
+const { LngLatBounds } = MapLibre;
 import type { Snippet } from 'svelte';
 
 export type {
